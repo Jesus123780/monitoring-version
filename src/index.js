@@ -7,7 +7,7 @@ require('dotenv').config()
 const token = process.env.TOKEN;
 
 const octokit = new Octokit({
-  auth: token,
+  auth: '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'
 });
 
 const repoOwner = "Jesus123780";
