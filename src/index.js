@@ -5,7 +5,7 @@ const fs = require("fs/promises");
 require('dotenv').config()
 
 const token = process.env.TOKEN;
-
+console.log(token)
 const octokit = new Octokit({
   auth: token
 });
